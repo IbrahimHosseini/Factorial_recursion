@@ -2,7 +2,7 @@
 package main
 
 func main() {
-	println(factorial(5))
+	println(factorial(12))
 }
 
 func factorial(n int) int {
@@ -11,3 +11,6 @@ func factorial(n int) int {
 	}
 	return n * factorial(n-1)
 }
+
+// Time complexity: O(n).
+// Space complexity: O(n).
